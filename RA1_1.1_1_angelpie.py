@@ -1,0 +1,2 @@
+nom = "Angel"
+print (nom)
