@@ -1,0 +1,21 @@
+#Demano al usuario l'informació necessaria
+nom = input("Introdueix el teu nom: ")
+cognom = input("Introdueix el teu cognom: ")
+ciutat = input("Introdueix la teva ciutat: ")
+institut = input("Introdueix el teu institut: ")
+cicle = input("Introdueix el teu cicle formatiu: ")
+modul = input("Introdueix el teu mòdul preferit: ")
+
+#Imprimeixo per pantalla tota l'informació anterior en el següent format
+print("--------------------------------")
+print("      FITXA DE L'ALUMNE")
+print("--------------------------------")
+print("")
+print("Nom: " + nom)
+print("Cognom: " + cognom)
+print("Ciutat: " + ciutat)
+print("Institut: " + institut)
+print("Cicle: " + cicle)
+print("Mòdul preferit: " + modul)
+print("")
+print("--------------------------------")
